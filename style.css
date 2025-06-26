@@ -478,18 +478,16 @@ footer{
 .menu{
     display: block;
     background-color: #0B4B1E;
-    width: 100%;
     padding: 4%;
 }
 
 .menu-border{
-    padding: 3%;
+    padding: 2%;
     color: #0E2713;
     font-size: large;
     font-weight: 700;
     border: 1px solid black;
 }
-
 
 nav{
     display: none;
@@ -606,7 +604,7 @@ padding: 3%;
 
 .jc{
     display: block;
-    flex-direction: column;
+
 }
 
 .cleft img{
@@ -616,6 +614,7 @@ padding: 3%;
 }
 .cright{
     padding-left: 5%;
+    width: 140%;
 }
 
 /* offer */
@@ -634,6 +633,8 @@ padding: 3%;
 .flexp{
     display: block;
     flex-direction: column;
+    justify-items: center;
+    margin-bottom: 8%;
 }
 
 /* loan */
@@ -645,11 +646,10 @@ padding: 3%;
 .sbox1p{
     background: white;
     text-align: center;
-    width: 50%;
+    width: 90%;
     line-height: 2;
     padding: 1% ;   
-    margin-bottom: 8%;
-    
+    margin-bottom: 8%; 
     box-shadow: 2px 2px 2px #adadad;    
 }
 .sbox1p p{
@@ -657,6 +657,7 @@ padding: 3%;
 }
 .sbox1p h6{
     font-size: 16px;
+    margin-top: 5%;
 }
 .sbox1p h4{
     font-weight: 400;
@@ -673,7 +674,7 @@ padding: 3%;
 .sbox2p{
     background: white;
     text-align: center;
-    width: 50%;
+    width: 90%;
     line-height: 2;
     padding: 1% ;   
     margin-bottom:8%;
@@ -684,6 +685,7 @@ padding: 3%;
 }
 .sbox2p h6{
     font-size: 16px;
+    margin-top: 5%;
 }
 .sbox2p h4{
     font-weight: 400;
@@ -772,6 +774,19 @@ padding: 3%;
 
 .flexf{
     flex-direction: column;
+    width: 130%;
+}
+
+.footbox p{
+    padding-right: 25%;
+}
+   
+.copyright{
+    padding: 8%;
+}
+
+
+
 }
 
 
@@ -779,19 +794,6 @@ padding: 3%;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-}
 
 
 
