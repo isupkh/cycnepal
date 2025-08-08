@@ -461,7 +461,7 @@ footer{
 @media (max-width: 412px) {   
 
     .container {
-        width: 138%;
+        width: 140%;
         margin: 0 auto;
           
       }
@@ -484,8 +484,9 @@ footer{
 
 .menu-box{
     background-color: #0B4B1E;
-    width: 138%;
+    width: 140%;
     padding: 4%;
+    overflow: hidden;
 
 }
 
@@ -501,7 +502,7 @@ nav{
 }
 
 .banner img{
-    width: 138%;
+    width: 140%;
     height: 0%;
     object-fit: cover;  
     overflow: hidden;
@@ -509,17 +510,18 @@ nav{
 
 /* below image  */
 .phone-quote{
-    width: 138%;
+    width: 140%;
     display: block;
     flex-direction: column;
     justify-items:center;
     background-color: #0D6936;
     color: white;
+    overflow: hidden;
 }
 
 .box1p{
 border-bottom: 1px solid white;
-width: 90%;
+width: 95%;
 justify-items: center;
 padding: 3%;
 }
@@ -536,7 +538,7 @@ padding: 3%;
 
 .box2p{
     border-bottom: 1px solid white;
-    width: 90%;
+    width: 95%;
     justify-items: center;
     padding: 3%;
     }
@@ -554,7 +556,7 @@ padding: 3%;
 
     .box3p{
         border-bottom: 1px solid white;
-        width: 90%;
+        width: 95%;
         justify-items: center;
         padding: 3%;
         }
@@ -571,7 +573,7 @@ padding: 3%;
 
         .box4p{
             border-bottom: 1px solid white;
-            width: 90%;
+            width: 95%;
             justify-items: center;
             padding: 3%;
             }
@@ -587,7 +589,7 @@ padding: 3%;
 
             .box5p{
                 border-bottom: 1px solid white;
-                width: 90%;
+                width: 95%;
                 justify-items: center;
                 padding: 3%;
                 }
