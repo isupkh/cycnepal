@@ -461,28 +461,32 @@ footer{
 @media (max-width: 412px) {   
 
     .container {
-        width: 127%;
+        width: 138%;
         margin: 0 auto;
           
       }
 
     .logo img{
-        width: 127%;
+        width: 138%;
          
     }
 
 .menu-border{
     display: block;
-    background-color: #0B4B1E;
-    color: white;
-   
-}
-
-.menu-border{
-    padding: 2%;
+    
+    background-color: white;
+    color: #0E2713;
+    padding: 2% ;
     font-size: large;
     font-weight: 700;
-    border: 1px solid black;
+        
+}
+
+.menu-box{
+    background-color: #0B4B1E;
+    width: 138%;
+    padding: 4%;
+
 }
 
 nav{
@@ -497,7 +501,7 @@ nav{
 }
 
 .banner img{
-    width: 127%;
+    width: 138%;
     height: 0%;
     object-fit: cover;  
     overflow: hidden;
@@ -505,6 +509,7 @@ nav{
 
 /* below image  */
 .phone-quote{
+    width: 138%;
     display: block;
     flex-direction: column;
     justify-items:center;
