@@ -60,7 +60,7 @@ header{
     gap: 15px;
 }
 
-.menu{
+.menu-border{
     display: none;
 }
 
@@ -456,34 +456,30 @@ footer{
 
 
 
-
-
-
 /* responsive  */
 
-@media (max-width: 768px)  {   
+@media (max-width: 412px) {   
 
     .container {
-        width: 100%;
+        width: 127%;
         margin: 0 auto;
-        padding: 0;
-        overflow: hidden;    
+          
       }
 
     .logo img{
-        width: 100%;
-        padding:2%;  
+        width: 127%;
+         
     }
 
-.menu{
+.menu-border{
     display: block;
     background-color: #0B4B1E;
-    padding: 4%;
+    color: white;
+   
 }
 
 .menu-border{
     padding: 2%;
-    color: #0E2713;
     font-size: large;
     font-weight: 700;
     border: 1px solid black;
@@ -501,7 +497,7 @@ nav{
 }
 
 .banner img{
-    width: 100%;
+    width: 127%;
     height: 0%;
     object-fit: cover;  
     overflow: hidden;
